@@ -8,7 +8,7 @@
 
 timelapse_night_spikes=ReadMulti_NightPanicle(InDir = TheDir,By = 1, 
                                                last_light_jpg = T,
-                                               mx.model = '/mnt/scratch/jigar/flower_opening_learning/Inception_Small-open_closed', iter.mx = 85, resize_factor = .7)
+                                               mx.model = 'Inception_model_ToA', iter.mx = 85, resize_factor = .7)
 
 ReadMulti_NightPanicle<-function(InDir, By=1, last_light_jpg=T, mx.model=NULL, iter.mx=NULL,  resize_factor=.7)
 {
