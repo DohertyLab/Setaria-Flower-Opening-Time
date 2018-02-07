@@ -6,7 +6,7 @@
 # iter.mx is the iteriation of the MXnet model used
 # resize_factor is the numeric between 0-1 that reduces the size of the image by the factor.
 Day_spikes=ReadMulti_DayPanicle(InDir = TheDir,By = 30,
-                                mx.model = '/mnt/scratch/jigar/flower_opening_learning/Inception_Small-open_closed', 
+                                mx.model = 'Inception_model_ToA', 
                                 iter.mx = 85, resize_factor = .75)
 
 
